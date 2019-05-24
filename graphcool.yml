@@ -32,7 +32,8 @@ functions:
 
 # To learn how to configure permission rules for your Graphcool service, 
 # check out the `permissions` example. 
-permissions: []
+permissions:
+  - operation: Post.read
 
 rootTokens:
   - signup
